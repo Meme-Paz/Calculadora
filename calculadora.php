@@ -14,6 +14,7 @@
 
         <input type="submit" name="" value="RESPUESTA">
         <output type = "number" name = "">
+            
     </form>
 </body>
 </html>
