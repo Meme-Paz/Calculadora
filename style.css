@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #003c71;
+    background: #fefae0;
 }
 
 .caja {
@@ -12,12 +12,12 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #061e26;
+    background: #606c38;
     text-align: center;
 }
 
 .caja h1 {
-    color: white;
+    color: #ffffff;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -28,7 +28,7 @@ body{
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #3498db;
+    border: 2px solid #dda15e;
     padding: 14px 10px;
     width: 150px;
     outline: none;
@@ -39,7 +39,7 @@ body{
 
 .caja input[type = "number"]:focus, .caja input[type = "number"]:focus {
     width: 200px;
-    border-color: #2ecc71;
+    border-color: #283618;
 }
 
 .caja input[type = "submit"]{
@@ -48,7 +48,7 @@ body{
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #3498db;
+    border: 2px solid #dda15e;
     padding: 14px 40px;
     outline: none;
     color: white;
@@ -58,12 +58,16 @@ body{
 }
 
 .caja input[type = "submit"]:hover {
-    background: #2ecc71;
-    color: black;
-
+    background: #283618;
+    color: rgb(255, 255, 255);    
+    border-color: #283618;
 }
 
 .caja output[type = "number"] {
-    color: #cc2e2e;
+    color: rgb(255, 255, 255);
     font-size: 30px;
+}
+
+.caja input[type="number"]::placeholder {
+    color: #ccc;
 }

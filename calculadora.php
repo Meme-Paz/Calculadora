@@ -8,7 +8,7 @@
 </head>
 <body>
     <form class="caja" action="calculadora.php" method="get">
-        <h1>CALCULADORA PHP</h1>
+        <h1>CALCULADORA</h1>
         <input type="number" name="numero1" value="" placeholder="Ingrese Número 1">
         <input type="number" name="numero2" value="" placeholder="Ingrese Número 2">
 
