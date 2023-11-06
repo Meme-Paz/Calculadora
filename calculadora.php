@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bienvenidos al nuevo php</h1>
     <form class="caja" action="calculadora.php" method="get">
         <h1>CALCULADORA PHP</h1>
         <input type="number" name="numero1" value="" placeholder="Ingrese Número 1">
