@@ -12,7 +12,7 @@
         <input type="number" name="numero1" value="" placeholder="Ingrese un número">
         <input type="number" name="numero2" value="" placeholder="Ingrese otro número">
 
-        <input type="submit" name="" value="RESPUESTA">
+        <input type="submit" name="" value="SUMAR">
         <output type = "number" name = "">
             
     </form>
