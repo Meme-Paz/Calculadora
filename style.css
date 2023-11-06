@@ -30,7 +30,7 @@ body{
     text-align: center;
     border: 2px solid #3498db;
     padding: 14px 10px;
-    width: 200px;
+    width: 150px;
     outline: none;
     color: white;
     border-radius: 24px;
@@ -38,7 +38,7 @@ body{
 }
 
 .caja input[type = "number"]:focus, .caja input[type = "number"]:focus {
-    width: 280px;
+    width: 200px;
     border-color: #2ecc71;
 }
 
@@ -64,6 +64,6 @@ body{
 }
 
 .caja output[type = "number"] {
-    color: #2ecc71;
-    font-size: 40px;
+    color: #cc2e2e;
+    font-size: 30px;
 }
